@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 *{
     list-style-type: none;
     margin: 0;
     padding:0 ;
     text-decoration: none;
-    /* margin-left:4%;
-    margin-right:4%; */
+    font-family: 
+    
 }
 
 .list_top{
@@ -15,12 +16,12 @@
     margin-left: 20px;
     font-size: 1.3em;
     text-transform: capitalize;
-    font-family: monospace; 
+    font-family: 'Fira Sans', sans-serif;
 }
 .head_text{
     text-align: center;
     margin-top: 100px;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 3.9em;
     text-transform: capitalize;
     font-weight: 600;
@@ -50,11 +51,12 @@ a:hover{
 .middle_div{
     display: flex;
     justify-content: center;
+    height: 150px;
 }
 .p_text{
   text-align: center;
     margin-top:40px;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 2.5em;
     text-transform: capitalize;
     font-weight: 600;
@@ -71,24 +73,38 @@ a:hover{
     color: white;
     font-size: 0.8em;
     text-transform: uppercase;
-    border: 10px solid;
+    border: solid;
 }
 .section_div{
     display:flex;
     justify-content: space-between;
+    margin-left:10%;
+    margin-right:10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
 }
 
 .section_p{
 font-size: 1.3em;
 text-transform:capitalize;
 font-weight: 600;
-font-family: monospace;
+font-family: 'Fira Sans', sans-serif;
 line-height: 40px;
 }
 .section_body{
     font-size: 1.2em;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
+    color: ;
+    
+}
+.section_coach{
+    font-size: 3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    margin-right: 15%;
+    line-height: 60px;
 }
 .section_footer{
     display: flex;
@@ -98,63 +114,98 @@ line-height: 40px;
 .foot_success{
 font-weight: 400;
 text-transform: capitalize;
-font-family: monospace;
+font-family: 'Fira Sans', sans-serif;
 font-size: 2.5em;
 height: 100px;
 }
 .foot_testomonie{
 font-size: 1.5em;
 font-weight: 200;
-font-family: monospace;
+font-family: 'Fira Sans', sans-serif;
 text-transform: capitalize;
+margin-bottom: 20px;
 }
 .philosophy{
     text-align: center;
     height: 300px;
-    margin-top:100px ;
+    margin-top:;
+    color: white;
+    padding-top: 100px;
 }
 .phil_body{
     text-transform: capitalize;
     font-size: 2.6em;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-    
+    padding-left:20%;
+    padding-right:20%;
+    margin-top: 20px;
+    background-color:;
+}
+.section_color{
+    background-color:#101126;
+    height: 500px;
 }
 .phil{
     text-transform: capitalize;
     font-size: 2em;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
 
 }
 .bottom_button{
-border: 2px palevioletred solid;
+border: 2px aliceblue solid;
 width: 120px;
 height: 50px;
 border-radius: 20px;
 margin-top:10px;
 font-size: 1em;
 text-transform: capitalize;
-font-family: monospace;
+font-family: 'Fira Sans', sans-serif;
+background-color: transparent;
+color: aliceblue;
 }
 .icons{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: 15px;
 }
 .footer_div{
     display: flex;
-    justify-content: space-between;
-    height: 400px;
+    justify-content:space-around;
+    align-items: center;
+    height: 300px;
 }
 .ovin{
 font-size: 2.5em;
 font-weight: 200;
 text-transform: capitalize;
 text-shadow: none;
-font-family: monospace;
+font-family: 'Fira Sans', sans-serif;
 }
 .succes{
     font-size: 1.4em;
     text-transform:capitalize;
-    font-family: monospace;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* please this for the footer just testing */
+.foot_testomonia{
+    margin-top: 60px;
+    background-color: #EBF5FC;
+    height: 500px;
+    align-content: center;
+    padding-top: 80px;
+}
+/* fixing margin and pading ish */
+.bottom_width{
+margin-left:100px;
+margin-right:100px;
+padding-left:60px;
+padding-right:60px;
+justify-content: space-between;
+}
+.main_body{
+    background-color:#EBF5FC;
+}
+.test{
+    margin-top: 30px;
 }
